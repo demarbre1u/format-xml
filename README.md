@@ -44,3 +44,11 @@ Usage: php format-xml.php [options] [filename]
 	--help, -h : displays this text
 	filename : the file containing the XML to format
 ```
+
+## Planned features
+
+Here is a list of the planned features to be added to the script : 
+
+ - XML validation 
+ - Trimming spaces in the values
+ - Testing / fixing edge cases with CDATA
