@@ -7,10 +7,8 @@ It prints the result in the standard output.
 
 Needs PHP@7.4 or higher to run.
 
-Here is an example :
-
+Here is an example. XML input : 
 ```
-XML input : 
 <?xml version="1.0" encoding="UTF-8"?>
 <Object>
     <Id>
@@ -26,8 +24,10 @@ XML input :
         <![CDATA[Here is some random text in a CDATA tag]]>
     </SomeRandomText>
 </Object>
+```
 
 XML output : 
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <Object>
     <Id>2</id>
