@@ -108,6 +108,7 @@ class FormatXMLCommand {
         $this->file_content = preg_replace($pattern, $replacement, $subject);
 
         print_r($this->file_content);
+        echo PHP_EOL;
     } 
 }
 
